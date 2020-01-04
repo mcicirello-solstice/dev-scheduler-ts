@@ -1,0 +1,25 @@
+{
+  "name": "dev-scheduler",
+  "version": "1.0.0",
+  "description": "k+c create dev scheduler challenge using javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest index.test.js",
+    "automated": "jest /automated-tests/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lnbriglio/dev-scheduler-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lnbriglio/dev-scheduler-js/issues"
+  },
+  "homepage": "https://github.com/lnbriglio/dev-scheduler-js#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "prettier": "1.19.1"
+  }
+}

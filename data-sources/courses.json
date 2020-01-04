@@ -1,0 +1,28 @@
+{
+  "courses": [
+    {
+      "name": "Java",
+      "duration": 30,
+      "unitOfTime": "HOURS",
+      "dependencies": []
+    },
+    {
+      "name": "Angular",
+      "duration": 25,
+      "unitOfTime": "HOURS",
+      "dependencies": []
+    },
+    {
+      "name": "TDD",
+      "duration": 10,
+      "unitOfTime": "HOURS",
+      "dependencies": []
+    },
+    {
+      "name": "Docker",
+      "duration": 15,
+      "unitOfTime": "HOURS",
+      "dependencies": ["Java"]
+    }
+  ]
+}

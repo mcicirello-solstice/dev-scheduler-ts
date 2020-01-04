@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    {
+      "name": "Consulting Onboarding",
+      "duration": 5,
+      "unitOfTime": "HOURS"
+    },
+    {
+      "name": "Engineering Onboarding",
+      "duration": 10,
+      "unitOfTime": "HOURS"
+    },
+    {
+      "name": "Agile",
+      "duration": 5,
+      "unitOfTime": "HOURS"
+    },
+    {
+      "name": "Solstie 101",
+      "duration": 5,
+      "unitOfTime": "HOURS"
+    },
+    {
+      "name": "Mentorship Onboarding",
+      "duration": 5,
+      "unitOfTime": "HOURS"
+    },
+    {
+      "name": "CXDD Onboarding",
+      "duration": 5,
+      "unitOfTime": "HOURS"
+    },
+    {
+      "name": "XP Onboarding",
+      "duration": 5,
+      "unitOfTime": "HOURS"
+    },
+    {
+      "name": "Engineer Assessment",
+      "duration": 15,
+      "unitOfTime": "HOURS"
+    }
+  ]
+}
