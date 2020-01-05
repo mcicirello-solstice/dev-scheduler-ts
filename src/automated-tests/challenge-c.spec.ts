@@ -1,10 +1,13 @@
-const dataProvider = require("../data-provider");
-const main = require("../index");
+import { DataProvider } from "../data-provider";
+import { SchedulingService } from "../scheduling-service";
+
+const service = new SchedulingService();
+const dataProvider = new DataProvider();
 
 describe("challenge c", () => {
   //TIP: Call main.challengeC
   test("all tasks should be completed in 6 hours", () => {
-    const totalAmmountOfTime = main.challengeC(
+    const totalAmmountOfTime = service.challengeC(
       dataProvider.getCourses(),
       dataProvider.getStories()
     );

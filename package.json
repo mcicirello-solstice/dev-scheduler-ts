@@ -2,24 +2,31 @@
   "name": "dev-scheduler",
   "version": "1.0.0",
   "description": "k+c create dev scheduler challenge using javascript",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "jest index.test.js",
+    "start": "tsc && node dist/index.js",
+    "build": "tsc",
+    "test": "jest src/index.spec.ts src/scheduling-service.spec.ts",
     "automated": "jest /automated-tests/*"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lnbriglio/dev-scheduler-js.git"
+    "url": "git+https://github.com/lnbriglio/dev-scheduler-ts.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lnbriglio/dev-scheduler-js/issues"
+    "url": "https://github.com/lnbriglio/dev-scheduler-ts/issues"
   },
-  "homepage": "https://github.com/lnbriglio/dev-scheduler-js#readme",
-  "dependencies": {},
+  "homepage": "https://github.com/lnbriglio/dev-scheduler-ts#readme",
+  "dependencies": {
+    "@types/node": "^13.1.4"
+  },
   "devDependencies": {
+    "@types/jest": "^24.0.25",
     "jest": "^24.9.0",
-    "prettier": "1.19.1"
+    "prettier": "1.19.1",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.4"
   }
 }

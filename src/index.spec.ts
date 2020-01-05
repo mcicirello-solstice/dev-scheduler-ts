@@ -1,5 +1,8 @@
-const dataProvider = require("./data-provider");
-const main = require("./index");
+import { DataProvider } from "./data-provider";
+import { SchedulingService } from "./scheduling-service";
+
+const service = new SchedulingService();
+const dataProvider = new DataProvider();
 
 describe("sample tests", () => {
   it("should test a value", () => {
@@ -19,5 +22,13 @@ describe("sample tests", () => {
 });
 
 describe("challenge a", () => {
-  //TIP: Call main.challengeA
+  //TIP: Call service.challengeA
+});
+
+describe("challenge b", () => {
+  //TIP: Call service.challengeB
+});
+
+describe("challenge c", () => {
+  //TIP: Call service.challengeC
 });

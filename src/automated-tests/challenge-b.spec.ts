@@ -1,10 +1,13 @@
-const dataProvider = require("../data-provider");
-const main = require("../index");
+import { DataProvider } from "../data-provider";
+import { SchedulingService } from "../scheduling-service";
+
+const service = new SchedulingService();
+const dataProvider = new DataProvider();
 
 describe("challenge b", () => {
-  //TIP: Call main.challengeB
+  //TIP: Call service.challengeB
   test("tasks completed in 10 hours", () => {
-    const results = main.challengeB(
+    const results = service.challengeB(
       dataProvider.getCourses(),
       dataProvider.getStories(),
       10
@@ -13,7 +16,7 @@ describe("challenge b", () => {
   });
 
   test("tasks completed in 20 hours", () => {
-    const results = main.challengeB(
+    const results = service.challengeB(
       dataProvider.getCourses(),
       dataProvider.getStories(),
       20
@@ -22,7 +25,7 @@ describe("challenge b", () => {
   });
 
   test("tasks completed in 40 hours", () => {
-    const results = main.challengeB(
+    const results = service.challengeB(
       dataProvider.getCourses(),
       dataProvider.getStories(),
       40
@@ -33,7 +36,7 @@ describe("challenge b", () => {
   });
 
   test("tasks completed in 80 hours", () => {
-    const results = main.challengeB(
+    const results = service.challengeB(
       dataProvider.getCourses(),
       dataProvider.getStories(),
       80
