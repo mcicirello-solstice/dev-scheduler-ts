@@ -20,15 +20,3 @@ describe("sample tests", () => {
     expect(myArray).toEqual(expect.arrayContaining(["value2", "value1"]));
   });
 });
-
-describe("challenge a", () => {
-  //TIP: Call service.challengeA
-});
-
-describe("challenge b", () => {
-  //TIP: Call service.challengeB
-});
-
-describe("challenge c", () => {
-  //TIP: Call service.challengeC
-});
